@@ -33,7 +33,7 @@ class App extends Component {
     return (
       <div className="App">
         <h1>Monsters Rolodex</h1>
-        <Search placeholder='Search Monsters' handleChange={this.handleChange} />
+        <Search placeholder='Search Monsters...' handleChange={this.handleChange} />
         <CardList monsters={filteredMonsters} />
 
         {/* <button onClick={() => this.setState({ message: 'Hello World!' })}>Change Text</button> */}
